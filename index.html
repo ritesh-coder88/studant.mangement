@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Kadu | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <canvas id="network-bg" aria-hidden="true"></canvas>
+    <script>
+        window.portfolioLinks = {
+            github: "https://github.com/kaduritesh4",
+            linkedin: "https://www.linkedin.com/in/ritesh-kadu/"
+        };
+    </script>
+
+    <header class="site-header">
+        <nav class="nav-shell">
+            <a class="brand" href="#home" aria-label="Ritesh Kadu home">
+                <i class="fa-solid fa-microchip"></i>
+                <strong>RK</strong>
+                <span>DevStudio</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a class="resume-btn" href="#contact">
+                    <i class="fa-regular fa-file-lines"></i>
+                    Resume
+                </a>
+                <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <span class="availability">
+                        <i class="fa-solid fa-wave-square"></i>
+                        Available for software & embedded roles
+                    </span>
+                    <h1>Namaste,<br>I'm <span>Ritesh Kadu</span></h1>
+                    <h2 class="typing-line"><span id="typed-role">Web Developer</span></h2>
+                    <p>
+                      
+
+Aspiring Software Developer skilled in Java, JavaScript, HTML, and CSS. Passionate about building responsive web applications, solving problems, and learning new technologies to create impactful digital solutions.
+
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#contact">
+                            <i class="fa-regular fa-file-lines"></i>
+                            Get Resume
+                        </a>
+                        <a class="btn btn-secondary" href="#contact">
+                            Connect With Me
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a class="js-github-link" href="https://github.com/kaduritesh4" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a class="js-linkedin-link" href="https://www.linkedin.com/in/ritesh-kadu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:kaduritesh4@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="orbit-wrap reveal">
+                    <span class="orbit-badge badge-top"><i class="fa-solid fa-code"></i> Web Dev</span>
+                    <span class="orbit-badge badge-right"><i class="fa-solid fa-microchip"></i> Embedded</span>
+                    <span class="orbit-badge badge-bottom"><i class="fa-solid fa-database"></i> SQL</span>
+                    <span class="orbit-badge badge-left"><i class="fa-brands fa-java"></i> Java</span>
+                    <div class="orbit-ring">
+                        <div class="profile-photo">
+                            <img src="images/profile.jpg" alt="Ritesh Kadu profile photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container narrow">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Profile</span>
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="glass-card reveal">
+                    <div class="about-panel">
+                        <div class="about-photo-wrap">
+                            <img src="images/profile.jpg" alt="Ritesh Kadu">
+                        </div>
+                        <div class="about-copy">
+                            <span class="availability mini-pill">
+                                <i class="fa-solid fa-wave-square"></i>
+                                Available for roles
+                            </span>
+                            <h3>Building useful web, Java, and embedded projects.</h3>
+                            <p>
+                                Hello, I'm Ritesh Kadu, an aspiring Software Developer passionate about creating modern web applications and solving real-world problems through technology. I enjoy learning new technologies, improving my programming skills, and building user-friendly digital solutions.
+                            </p>
+                            <div class="about-links">
+                                <a class="js-github-link" href="https://github.com/kaduritesh4" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a class="js-linkedin-link" href="https://www.linkedin.com/in/ritesh-kadu/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Toolkit</span>
+                    <h2>Skills & Technologies</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skill-grid">
+                    <article class="skill-card reveal"><i class="fa-brands fa-java"></i><h3>Java</h3><p>Object oriented programming and application logic.</p></article>
+                    <article class="skill-card reveal"><i class="fa-brands fa-html5"></i><h3>HTML</h3><p>Semantic page structure for responsive websites.</p></article>
+                    <article class="skill-card reveal"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3><p>Modern layouts, polished cards, and adaptive UI.</p></article>
+                    <article class="skill-card reveal"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Interactive behavior and client-side features.</p></article>
+                    <article class="skill-card reveal"><i class="fa-solid fa-database"></i><h3>SQL</h3><p>Database queries and structured data handling.</p></article>
+                    <article class="skill-card reveal"><i class="fa-solid fa-microchip"></i><h3>Arduino</h3><p>Embedded prototyping, sensors, and controllers.</p></article>
+                    <article class="skill-card reveal"><i class="fa-solid fa-diagram-project"></i><h3>PCB Design</h3><p>Electronics layout thinking and circuit planning.</p></article>
+                    <article class="skill-card reveal"><i class="fa-solid fa-satellite-dish"></i><h3>IoT Systems</h3><p>Connected devices and automation focused projects.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Case Studies</span>
+                    <h2>Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card reveal">
+                        <div class="project-visual hospital-photo">
+                            <span>Hospital Management System</span>
+                            <i class="fa-solid fa-hospital-user"></i>
+                        </div>
+                        <span class="tag">Java</span>
+                        <h3>Hospital Management System</h3>
+                        <p>Application concept for managing patients, doctors, appointments, and hospital records efficiently.</p>
+                        <div class="chips"><span>Java</span><span>SQL</span><span>Management</span></div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-visual hydro-photo">
+                            <span>Hydroponic Plant System</span>
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <span class="tag">IoT</span>
+                        <h3>Hydroponic Plant System</h3>
+                        <p>Automated plant monitoring system designed around water, sensors, and smart control.</p>
+                        <div class="chips"><span>IoT</span><span>Automation</span><span>Arduino</span></div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-visual resume-photo">
+                            <span>AI Resume Builder</span>
+                            <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <span class="tag">AI</span>
+                        <h3>AI Resume Builder</h3>
+                        <p>Resume builder concept that helps users create structured resumes with guided content and clean formatting.</p>
+                        <div class="chips"><span>AI</span><span>Web</span><span>Resume</span></div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-visual car-photo">
+                            <span>Car Rental Website</span>
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+                        <span class="tag">Web</span>
+                        <h3>Car Rental Website</h3>
+                        <p>Responsive website concept for browsing, comparing, and booking rental vehicles.</p>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container narrow">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Chronology</span>
+                    <h2>Experience & Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <span class="timeline-dot"></span>
+                        <div class="glass-card">
+                            <span class="tag">Training</span>
+                            <h3>Java Full Stack Training</h3>
+                            <p>Training at Kiran Academy focused on Core Java, web technologies, database concepts, and full stack application development.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item reveal">
+                        <span class="timeline-dot"></span>
+                        <div class="glass-card">
+                            <span class="tag">College</span>
+                            <h3>Electronics & Communication Engineering</h3>
+                            <p>College coursework building a foundation across electronics, programming, communication systems, and project development.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item reveal">
+                        <span class="timeline-dot"></span>
+                        <div class="glass-card">
+                            <span class="tag">Practice</span>
+                            <h3>Software & Embedded Projects</h3>
+                            <p>Hands-on learning through Java, web development, Arduino, PCB design, and IoT experiments.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Highlights</span>
+                    <h2>Certifications & Achievements</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="profile-grid">
+                    <article class="glass-card stat-card reveal"><i class="fa-solid fa-award"></i><h3>Web Development</h3><p>Frontend practice with HTML, CSS, JavaScript, and responsive layouts.</p></article>
+                    <article class="glass-card stat-card reveal"><i class="fa-solid fa-certificate"></i><h3>Java Programming</h3><p>Core Java concepts, logic building, and structured programming.</p></article>
+                    <article class="glass-card stat-card reveal"><i class="fa-solid fa-medal"></i><h3>Embedded Projects</h3><p>Arduino, sensors, IoT automation, and practical hardware systems.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Transmissions</span>
+                    <h2>Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="glass-card contact-info reveal">
+                        <h3>Let's build something useful.</h3>
+                        <p>Open to software, embedded systems, IoT, and web development opportunities.</p>
+                        <a href="mailto:kaduritesh4@gmail.com" class="contact-link"><i class="fa-solid fa-envelope"></i><span><small>Email</small>kaduritesh4@gmail.com</span></a>
+                        <a href="tel:+918551066718" class="contact-link"><i class="fa-solid fa-phone"></i><span><small>Phone</small>+91 8551066718</span></a>
+                        <a href="https://github.com/kaduritesh4" target="_blank" rel="noopener noreferrer" class="contact-link js-github-link"><i class="fa-brands fa-github"></i><span><small>GitHub</small>github.com/kaduritesh4</span></a>
+                        <a href="https://www.linkedin.com/in/ritesh-kadu/" target="_blank" rel="noopener noreferrer" class="contact-link js-linkedin-link"><i class="fa-brands fa-linkedin-in"></i><span><small>LinkedIn</small>linkedin.com/in/ritesh-kadu</span></a>
+                    </div>
+
+                    <form class="glass-card contact-form reveal">
+                        <label>Your Name<input type="text" placeholder="Name"></label>
+                        <label>Your Email<input type="email" placeholder="Email"></label>
+                        <label>Message<textarea rows="4" placeholder="Type your message"></textarea></label>
+                        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Ritesh Kadu. All rights reserved.</p>
+            <div class="footer-socials">
+                <a class="js-github-link" href="https://github.com/kaduritesh4" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a class="js-linkedin-link" href="https://www.linkedin.com/in/ritesh-kadu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:kaduritesh4@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+918551066718" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
